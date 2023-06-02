@@ -31,15 +31,15 @@ function renderizarProductos(productosElegidos) {
         `;
         contenedor.appendChild(div);
     });
-    actualizarBotonesAgregar();
+    actualizarBotonesAgregar(productosElegidos);
 }
 
 //Categoria Productos
 
-optionCategory.forEach(option =>
-    option.addEventListener("click", (e) => {
+buttonCategory.forEach(button =>
+    button.addEventListener("click", (e) => {
 
-        optionCategory.forEach(option => option.classList.remove("active"));
+        buttonCategory.forEach(button => button.classList.remove("active"));
         e.currentTarget.classList.add("active");
 
         const productosOption = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
@@ -62,7 +62,7 @@ function actualizarBotonesAgregar(){
     botonesAgregar = document.querySelectorAll(".prodAAgregar");
 
     botonesAgregar.forEach(boton => {
-        boton.addEventListener("click", () => agregarAlCarrito);
+        boton.addEventListener("click", () => agregarAlCarrito());
     });
 }
 
