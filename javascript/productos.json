@@ -1,0 +1,236 @@
+[
+    {
+        "id": 1,
+        "foto": "./img/Gentle Milk Cleanser.jpg",
+        "nombre": "Gentle Milk Cleanser",
+        "categoria": {
+            "nombre": "Limpiadores",
+            "id": "limpiadores"
+        },
+        "cantidad": 190,
+        "descripcion": "Leche limpiadora suavizante",
+        "precio": 2900,
+        "codigo": 10058
+    },
+    {
+        "id": 2,
+        "foto": "./img/Alpine Roses Cleanser Emulsion.jpg",
+        "nombre": "Alpine Roses Cleanser Emulsion",
+        "categoria": {
+            "nombre": "Limpiadores",
+            "id": "limpiadores"
+        },
+        "cantidad": 100,
+        "descripcion": "Suave microemulsion de limpieza que desmaquilla y limpia con rapidez",
+        "precio": 2850,
+        "codigo": 19198
+    },
+    {
+        "id": 3,
+        "foto": "./img/Vitamin C Cleanser.jpg",
+        "nombre": "Vitamin C Cleanser",
+        "categoria": {
+            "nombre": "Limpiadores",
+            "id": "limpiadores"
+        },
+        "cantidad": 180,
+        "descripcion": "Gel limpiador espumante para rostro y cuerpo",
+        "precio": 2140,
+        "codigo": 12601
+    },
+    {
+        "id": 4,
+        "foto": "./img/Gentle Milk Cleanser REFILL.jpg",
+        "nombre": "Gentle Milk Cleanser REFILL",
+        "categoria": {
+            "nombre": "Limpiadores",
+            "id": "limpiadores"
+        },
+        "cantidad": 175,
+        "descripcion": "Leche limpiadora suavizante",
+        "precio": 2330,
+        "codigo": 10323
+    },
+    {
+        "id": 5,
+        "foto": "./img/Conjac Sponge.png",
+        "nombre": "Conjac Sponge",
+        "categoria": {
+            "nombre": "Esponjas",
+            "id": "esponjas"
+        },
+        "cantidad": 1,
+        "descripcion": "Esponja facial elaborada con pura fibra vegetal de alta pureza y cenizas activas de Bambu Natural.",
+        "precio": 1800,
+        "codigo": 10477
+    },
+    {
+        "id": 6,
+        "foto": "./img/Compressed Sponge.png",
+        "nombre": "Compressed Sponge",
+        "categoria": {
+            "nombre": "Esponjas",
+            "id": "esponjas"
+        },
+        "cantidad": 12,
+        "descripcion": "Esponjas comprimidas para retirar productos de higiene con mayor practicidad.",
+        "precio": 1200,
+        "codigo": 10453
+    },
+    {
+        "id": 7,
+        "foto": "./img/Alpine Roses Scrub.bmp",
+        "nombre": "Alpine Roses Scrub",
+        "categoria": {
+            "nombre": "Exfoliantes",
+            "id": "exfoliantes"
+        },
+        "cantidad": 60,
+        "descripcion": "Crema exfoliante para una limpieza profunda de la piel",
+        "precio": 1910,
+        "codigo": 18900
+    },
+    {
+        "id": 8,
+        "foto": "./img/Exfolianting Scrub.bmp",
+        "nombre": "Exfolianting Scrub",
+        "categoria": {
+            "nombre": "Exfoliantes",
+            "id": "exfoliantes"
+        },
+        "cantidad": 215,
+        "descripcion": "Gel exfoliante purificante.",
+        "precio": 2540,
+        "codigo": 13837
+    },
+    {
+        "id": 9,
+        "foto": "./img/Pro Reti-C Scrub.bmp",
+        "nombre": "Pro Reti-C Scrub",
+        "categoria": {
+            "nombre": "Exfoliantes",
+            "id": "exfoliantes"
+        },
+        "cantidad": 250,
+        "descripcion": "Crema exfoliante antiedad de uso facial y corporal.",
+        "precio": 3990,
+        "codigo": 16821
+    },
+    {
+        "id": 10,
+        "foto": "./img/Bi-Phase Micellar Water.bmp",
+        "nombre": "Bi-Phase Micellar Water",
+        "categoria": {
+            "nombre": "Micelares",
+            "id": "micelares"
+        },
+        "cantidad": 195,
+        "descripcion": "Agua micelar bifasica",
+        "precio": 2510,
+        "codigo": 13868
+    },
+    {
+        "id": 11,
+        "foto": "./img/3 in 1 Micellar Water.jpg",
+        "nombre": "3 in 1 Micellar Water",
+        "categoria": {
+            "nombre": "Micelares",
+            "id": "micelares"
+        },
+        "cantidad": 220,
+        "descripcion": "Agua micelar triple accion: desmaquilla, limpia y refresca.",
+        "precio": 2720,
+        "codigo": 13844
+    },
+    {
+        "id": 12,
+        "foto": "./img/Alpine Roses Make Up Remover.bmp",
+        "nombre": "Alpine Roses Make Up Remover",
+        "categoria": {
+            "nombre": "Micelares",
+            "id": "micelares"
+        },
+        "cantidad": 60,
+        "descripcion": "Formula bifasica que remueve facilmente el maquillaje, inclusive el que es a prueba de agua, sin agredir la piel de los ojos y los labios",
+        "precio": 1990,
+        "codigo": 11023
+    },
+    {
+        "id": 13,
+        "foto": "./img/Hyaluronic B5 Bio-Osmotic Lotion.bmp",
+        "nombre": "Hyaluronic B5 Bio-Osmotic Lotion",
+        "categoria": {
+            "nombre": "LocionesBrumas",
+            "id": "locionesBrumas"
+        },
+        "cantidad": 100,
+        "descripcion": "Locion hidratante osmoprotectora.",
+        "precio": 3200,
+        "codigo": 18269
+    },
+    {
+        "id": 14,
+        "foto": "./img/Vitamin C All-Day Radiance Lotion.bmp",
+        "nombre": "Vitamin C All-Day Radiance Lotion",
+        "categoria": {
+            "nombre": "LocionesBrumas",
+            "id": "locionesBrumas"
+        },
+        "cantidad": 100,
+        "descripcion": "Locion revitalizante y bioestimulante.",
+        "precio": 2750,
+        "codigo": 19433
+    },
+    {
+        "id": 15,
+        "foto": "./img/Alpine Roses Brume.bmp",
+        "nombre": "Alpine Roses Brume",
+        "categoria": {
+            "nombre": "LocionesBrumas",
+            "id": "locionesBrumas"
+        },
+        "cantidad": 100,
+        "descripcion": "Bruma antiage ideal para pieles delicadas o sensibles.",
+        "precio": 2780,
+        "codigo": 18887
+    },
+    {
+        "id": 16,
+        "foto": "./img/Zenskin S.O.S Rescue Brume.bmp",
+        "nombre": "Zenskin S.O.S Rescue Brume",
+        "categoria": {
+            "nombre": "LocionesBrumas",
+            "id": "locionesBrumas"
+        },
+        "cantidad": 100,
+        "descripcion": "Bruma calmante de rescate.",
+        "precio": 2720,
+        "codigo": 12341
+    },
+    {
+        "id": 17,
+        "foto": "./img/Thermal New Rich.jpg",
+        "nombre": "Thermal New Rich",
+        "categoria": {
+            "nombre": "HidratacionTermal",
+            "id": "hidratacionTermal"
+        },
+        "cantidad": 50,
+        "descripcion": "Crema termal rica. Textura cremosa y emoliente.",
+        "precio": 3000,
+        "codigo": 13943
+    },
+    {
+        "id": 18,
+        "foto": "./img/Thermal New Light.jpg",
+        "nombre": "Thermal New Light",
+        "categoria": {
+            "nombre": "HidratacionTermal",
+            "id": "hidratacionTermal"
+        },
+        "cantidad": 50,
+        "descripcion": "Crema termal ligera. Textura crema gel ultraliviana.",
+        "precio": 3000,
+        "codigo": 13967
+    }
+]
