@@ -92,8 +92,8 @@
     },
     {
         "id": 8,
-        "foto": "./img/Exfolianting Scrub.bmp",
-        "nombre": "Exfolianting Scrub",
+        "foto": "./img/Exfoliating Scrub.bmp",
+        "nombre": "Exfoliating Scrub",
         "categoria": {
             "nombre": "Exfoliantes",
             "id": "exfoliantes"

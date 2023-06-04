@@ -1,5 +1,18 @@
 let productos = [];
 
+let usuario;
+let usuarioStorage = sessionStorage.getItem("usuario");
+
+if(usuarioStorage){
+    usuario = usuarioStorage;
+    alert(`Bienvenid@ ${usuario} nuevamente`);
+}else{
+    usuario = prompt("Ingrese el usuario");
+    alert(`Bienvenid@ usuario eres nuevo`);
+    localStorage.setItem("usuario", usuario);
+
+}
+
 const productosEnCarrito = JSON.parse(localStorage.getItem("productos-en-carrito")) || [];
 
 fetch("./javascript/productos.json")
@@ -69,6 +82,8 @@ function actualizarBotonesAgregar(productos){
 }
 
 function agregarAlCarrito(e, productos){
+    console.log('EN AGREGAR AL CARRITO');
+    console.log(productos);
     const idOption = e.currentTarget.id;
     const prodAgregado = productos.find(producto => producto.id === idOption);
 
