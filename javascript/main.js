@@ -25,7 +25,7 @@ divNav.innerHTML=`
             <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Productos</a></li>
             <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Como comprar</a></li>
             <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Contactos</a></li>
-            <li class="nav-item"><a href="carrito.html" class="nav-link link-dark px-2">Carrito<span class="number"></span></a></li>
+            <li class="nav-item"><a href="./carrito.html" class="nav-link link-dark px-2">Carrito<span class="number"></span></a></li>
           </ul>
           <ul class="nav">
             <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Iniciar sesion</a></li>
