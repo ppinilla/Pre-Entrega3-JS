@@ -5,7 +5,7 @@ fetch("./javascript/productos.json")
     .then(data => {
         productos = data;
         renderizarProductos(productos);
-    })
+    });
 
 const contenedor = document.querySelector("#misprods");
 const buttonCategory = document.querySelectorAll(".button-category");
@@ -97,10 +97,12 @@ function agregarAlCarrito(e) {
       }
       actualizarNumber();
       localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+      //actualizarBotonesEliminar();
     } else {
       console.log("El producto no se encontró en el arreglo 'productos'.");
     }
   }
+
 
 // ACTUALIZAR NUMERO DE PRODUCTOS EN CARRITO
 function actualizarNumber() {

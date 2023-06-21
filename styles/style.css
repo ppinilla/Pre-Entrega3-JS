@@ -41,24 +41,6 @@ a {
   height: 150px;
 }
 
-nav {
-  background-color: #CFD2CF;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 100px;
-  display: flex;
-}
-nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-nav ul li a {
-  align-items: center;
-  margin-left: 22px;
-}
-
 #logo img {
   height: 70px;
   padding: 0;
@@ -140,13 +122,6 @@ nav ul li a {
 .button-carrito.active .number {
   background-color: var(--clr-main);
   color: var(--clr-white);
-}
-
-.text-footer {
-  color: var(--clr-txt);
-  font-size: 0.85rem;
-  background-color: var(--clr-gray);
-  padding-left: 2rem;
 }
 
 main {
