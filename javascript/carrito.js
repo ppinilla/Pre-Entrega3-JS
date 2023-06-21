@@ -1,9 +1,3 @@
-/* const url = "./javascript/productos.json";
-
-fetch(url)
-.then(res => res.json())
-.then(data => console.log(data)) */
-
 
 let productosEnCarrito = localStorage.getItem("productos-en-carrito");
 productosEnCarrito = JSON.parse(productosEnCarrito) || [];
