@@ -307,7 +307,101 @@ main {
   font-weight: bold;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/* CONTACTOS */
+
+.contactos{
+  padding: 50px;
+}
+.formC {
+  display: flex;
+  justify-content: center;
+}
+.border{
+  background-color: #fff; 
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-control{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#message{
+  height: 150px;
+}
+#botones{
+  display: flex;
+  justify-content: space-between;
+}
+#enviar{
+  background-color: #2b4b80; 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  border: none; 
+  cursor: pointer; 
+  margin-right: 10px;
+}
+
+#borrar{
+  background-color: #bbb; 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  border: none; 
+  cursor: pointer;
+}
+
+#infoC{
+  display: flex; 
+  justify-content: center;
+   margin-top: 30px;
+}
+
+#infoC div{
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+}
+
+/* COMO COMPRAR */
+
+#cc{
+  text-align: center;
+}
+#cc h2{
+  font-weight: bold;
+  font-size: 24px; 
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+#cc p{
+  font-size: 18px;
+  line-height: 1.5; margin-bottom: 30px;
+}
+
+#cc ol{
+  text-align: left; margin-left: 80px;
+
+}
+
+#cc li{
+  font-size: 16px; line-height: 1.5; margin-bottom: 10px;
+
+}
+
+#cc ul{
+  font-size: 16px; line-height: 1.5; margin-bottom: 10px;
+
+}
 
 
 
