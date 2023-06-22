@@ -5,8 +5,7 @@ productosEnCarrito = JSON.parse(productosEnCarrito) || [];
 const contenedorCarritoVacio = document.querySelector("#carrito-vacio");
 const contenedorCarritoProductos = document.querySelector("#carrito-productos");
 const contenedorCarritoAcciones = document.querySelector("#carrito-acciones");
-const contenedorCarritoComprado = document.querySelector("#carrito-comprado")
-const botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
+const contenedorCarritoComprado = document.querySelector("#carrito-comprado");
 const botonVaciar = document.querySelector("#carrito-acciones-vaciar");
 const contenedorTotal = document.querySelector("#total");
 const botonComprar = document.querySelector("#carrito-acciones-comprar");
@@ -67,7 +66,7 @@ function cargarProductosCarrito(productos){
 cargarProductosCarrito(productosEnCarrito);
 
 function actualizarBotonesEliminar() {
-    botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
+    const botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
   
     botonesEliminar.forEach((boton) => {
       boton.addEventListener("click", eliminarDelCarrito);
