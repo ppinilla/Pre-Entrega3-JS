@@ -11,7 +11,7 @@ const contenedor = document.querySelector("#misprods");
 const buttonCategory = document.querySelectorAll(".button-category");
 const mainTitle = document.querySelector("#main-title");
 let botonesAgregar = document.querySelectorAll(".prodAAgregar");
-const number = document.querySelector("#number");
+const number = document.querySelector(".number");
 
 buttonCategory.forEach(button => button.addEventListener("click", () => {
     aside.classList.remove("aside-visible");
@@ -38,7 +38,7 @@ function renderizarProductos(productosElegidos){
     })
     actualizarBotonesAgregar();
 }
-renderizarProductos(productos);
+/* renderizarProductos(productos); */
 
 // CATEGORIA DE PRODUCTOS
 buttonCategory.forEach(button =>
@@ -85,11 +85,11 @@ if (productosEnCarritoLS) {
 
 function agregarAlCarrito(e) {
     const idButton = e.currentTarget.id;
-    const prodAgregado = productos.find(producto => producto.id === idButton);
+    const prodAgregado = productos.find(producto => producto.id == idButton);
   
     if (prodAgregado) {
-      if (productosEnCarrito.some(producto => producto.id === idButton)) {
-        const index = productosEnCarrito.findIndex(producto => producto.id === idButton);
+      if (productosEnCarrito.some(producto => producto.id == idButton)) {
+        const index = productosEnCarrito.findIndex(producto => producto.id == idButton);
         productosEnCarrito[index].cantidad++;
       } else {
         prodAgregado.cantidad = 1;
